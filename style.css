@@ -1,0 +1,71 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+  height: 100%; 
+}
+.wrapper{
+    display: flex;
+    min-height: 100%;
+    overflow: hidden; 
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+._container{
+    margin:0px auto;
+    max-width: 1440px;
+    box-sizing: content-box;
+}
+
+._green-bg{
+    background-color: #EDF2EC;
+    }
+
+.gardeners{
+    color: #499A18;
+    font-size: 40px;
+}
+
+._title{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+}
+._text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+}
+
+.green-text{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+
+.green-text-h2{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+
+.orange-text{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #E06733
+}
