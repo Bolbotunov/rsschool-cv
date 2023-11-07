@@ -16,16 +16,15 @@ Finished Rsschool 2022Q4
 4. JS
 5. Figma
 ## Code examples
-  >var dino = document.getElementBYId("dino");  
-   var cactus = document.getElementBYId("cactus");  
-   function jump() {  
-	   if(dino.classlist !="animate");  
-	   dino.classlist.add("animate");  
-   }  
- 	  dino.classlist.add("animate");  
-   settimeout(function(){  
-	   	dino.classlist.remove("animate");  
-   	},500);   
+  >btn.addEventListener('click',function(){
+    if(input.value.length===0){
+        return
+    }
+    let a = input.value
+    list.insertAdjacentHTML('beforeend',
+    `<li class="list_item" id="${counter()}">${a}<span class='span'>X</span></li>`)
+    input.value=''
+})
 
 ## Education
 Polotsk State University 2009-2013: Logistics  
