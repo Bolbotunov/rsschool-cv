@@ -1,0 +1,150 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	height: 100%;
+	width: 100%;
+	background-color: #93c8e0;
+  }
+
+h1,h2,h3{
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+.pre{
+	font-weight: normal;
+	font-size: 22px;
+}
+
+._container{
+		max-width: 1200px;
+		box-sizing: content-box;
+		margin: 0 auto;
+		margin: 40px;
+		padding: 35px 35px;
+}
+
+.wrapper{
+	background-color: #c6dce7;
+    overflow: hidden;
+    flex-direction: column;
+    min-height: 100vh;
+	border: 11px solid rgb(0, 64, 128);
+	border-radius: 20px;
+	max-width: 1300px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	box-shadow: 9px 9px 9px rgb(90, 84, 84);
+}
+
+.header {
+	margin: 40px;
+}
+.header__container {
+}
+.nav {
+	border-bottom: 6px solid black;
+	height: 50px;
+}
+.menu__item {
+	display: flex;
+	justify-content: space-between;
+	transition: 1s;
+}
+.item {
+	list-style: none;
+}
+.item-link {
+	text-decoration: none;
+	color: inherit;
+	font-family: 'Montserrat Alternates', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 21px;
+	color: rgb(0, 64, 128);
+	transition: .5s;
+}
+.item-link:hover{
+color: rgb(0, 0, 0);
+transform: scale(1.5);
+}
+.item:hover{
+	transform: scale(1.2);
+}
+
+.main {
+}
+.main__image {
+	width: 33.3%;
+}
+.main__image-logo {
+	height: 300px;
+	width: 300px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+.main__title {
+	width: 66.6%;
+	font-size: 25px;
+}
+
+.category{
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 0px 0px 0px;
+	align-items: center;
+}
+
+.categoty__title {
+	width: 33.3%;
+}
+.category__text {
+	font-size: 18px;
+	width: 66.6%;
+	letter-spacing: 0.5mm;
+	border-bottom: 2px solid rgb(0, 64, 128);
+	line-height: 38px;
+}
+
+.list__skills{
+list-style: none;
+padding-left: 0px;
+}
+
+._code{
+	background-color: #a1c0d0;
+	border-radius: 33px;
+	margin:0px auto;
+	padding: 20px 40px;
+}
+
+.footer {
+}
+.footer__wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.git {
+	width: 33.3%;
+	margin: 0 auto;
+}
+.logo {
+	width: 100px;
+	height: 100px;
+	
+}
+.rss {
+	width: 33.3%;
+	margin: 0 auto;
+}
+.linkrss {
+	width: 33.3%;
+}
+.by {
+	align-items: center;
+	margin: 0 auto;
+}
+
+p{
+	font-family: 'Montserrat Alternates', sans-serif;
+}
