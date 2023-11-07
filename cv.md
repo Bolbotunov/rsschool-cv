@@ -32,3 +32,4 @@ UX Mind School 2020:  UX/UI Design
 Epam Rsschool 2022 Q4
 ## Foreign language
 English A2+
+Russian Native 
