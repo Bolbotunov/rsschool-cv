@@ -22,6 +22,7 @@ Finished Rsschool 2024Q2
 Polotsk State University 2009-2013: Logistics  
 UX Mind School 2020:  UX/UI Design
 Epam Rsschool 2022 Q4
+Epam Rsschool 2024 Q2
 ## Foreign language
 English A2+
 Russian Native
